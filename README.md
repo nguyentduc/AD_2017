@@ -1,4 +1,4 @@
-# This is my readme file
+# This is my readme file, by Duc
 Raspberry Pi acoustic sensor project
 
 This project will turn a raspberry Pi 3 into an acoustic sensor
@@ -22,3 +22,4 @@ following content
 If you are using Raspian Jessie, you have to roll back alsa-utils to an early version
 ...
   
+#by Duc

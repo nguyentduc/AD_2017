@@ -8,3 +8,4 @@ void setFGcolor(int fg);
 void resetcolor(void);
 void gotoXY(int row, int col);
 void displayBar( double rms, int col); 
+void clearscreen(void);
