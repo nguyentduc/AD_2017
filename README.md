@@ -52,9 +52,20 @@ In oder to set the USB sound card as default audio device, 02 files need to be m
   Step 3 : Go to your home directory. Use “nano .asoundrc” command and put the same content to the file.
   
   Step 4 : Run alsamixer you should be able to see that USB sound card is the default audio device.
-...
 
-If you are using Raspian Jessie, you have to roll back alsa-utils to an early version
+If you are using Raspian Jessie, you have to roll back alsa-utils to an early version.
+
+Step 1 : Use sudo nano /etc/apt/sources.list command and add the last line:
+
+deb http://mirrordirector.raspbian.org/raspbian/ wheezy main contrib non-free rpi
+
+Step 2 : Run sudo apt-get update
+
+Step 3 : Run sudo aptitude versions alsa-utils
+
+Step 4 : Run sudo apt-get install alsa-utils=1.0.25-4
+
+Step 5 : Reboot (if necessary).
 ...
   
 #by Duc
