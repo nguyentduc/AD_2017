@@ -1,7 +1,10 @@
-# This is my readme file, by Duc
+Github:https://github.com/nguyentduc/AD_2017
+# This is my readme file.
+
+----------------------------------------------------------------------------------------------------------------------------------
   Raspberry Pi acoustic sensor project
   
-  This project will turn a raspberry Pi 3 into an acoustic sensor
+  This project will turn a Raspberry Pi 3 into an acoustic sensor
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -15,9 +18,9 @@ GENERAL CONTENTS
   
   4.List of files included
   
-  5.Copyright and licensing information
+  5.Contact information
   
-  6.Contact information for the distributor or programer
+  6.Credits
   
 ----------------------------------------------------------------------------------------------------------------------------------
 
