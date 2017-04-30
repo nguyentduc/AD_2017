@@ -73,7 +73,7 @@ If you are using Raspian Jessie, you have to roll back alsa-utils to an early ve
 
 2.Installation instructions
 
-libcurl libary should be installed with following steps
+libcurl libary need to be installed with following steps
 
     Step 1: Run the command "ls /usr/include/curl" to identify that /usr/include/curl/ folder exists or not.
     If the folder doesn’t exist. Run “sudo apt-get update” to update the application list.
@@ -83,11 +83,43 @@ libcurl libary should be installed with following steps
     Step 3: Run “sudo apt-get install libcurl4-openssl-dev” to install the development API of libcurl4.
 
 3.Operating instructions
+
+    Step 1: Run "make" to connect multi-file.
+
+    Step 2: Run "./sound.a" command in order to display the sound waveforms.
+
+    Step 3: Data is initially stored at http://www.cc.puv.fi/~e1601145/php/sound_log.txt.
+    This could be changed by redefining the URL of the sound.php file in comm.h.
   
 4.List of files included
-  
-5.Copyright and licensing information
-  
-6.Contact information for the distributor or programer
 
-#by Duc
+    README.md : content and intructions needed for this project
+    
+    makefile : to compile separate file.
+    
+    wave.c : contains functions related to wave execution.
+    
+    wave.h : header file of wave.c .
+    
+    screen.c : contains functions related to screen display.
+    
+    screen.h : header file of screen.c.
+    
+    comm.c : the communication module via libcurl.
+    
+    comm.h : header file of comm.c.
+    
+    main.c : contains main() function which executes the output of this project.
+    
+    sound.php : the server page that receives datas.
+    
+5.Contact information
+    
+    Developer: Duc Nguyen
+    
+    Email: ntduc.121@gmail.com
+  
+6.Credits
+
+    This project is developed by Duc Nguyen with help from Dr. Gao Chao-Principal Lecturer at Vaasa University of Applied Sciences
+
